@@ -11,3 +11,18 @@ Terry Lashley
 Alon Rosner
 Leticia Vaz
 Katiushka Thompson
+
+
+Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
+
+* The sources of data that you will extract from.
+	Our data was retrieved from Kaggle.com. We pulled several datasets from this site all related to medical data.
+
+* The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
+    The headers had to be renamed, Removed NaN's and irrenous data, Dropped columns, and formated data.
+
+* The type of final production database to load the data into (relational or non-relational).
+	The data sets were loaded into a relational database
+
+* The final tables or collections that will be used in the production database.
+You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
